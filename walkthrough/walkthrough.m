@@ -26,7 +26,7 @@ for d=1:3
  fprintf('Selected window: %d, frames %d to %d.\n',x.selected,x.starts(x.selected),x.ends(x.selected));
  fprintf('Covariance, obtained as expm of the selected log-covariance:\n');disp(expm(x.log_covariance));
  fprintf('Normalized tangent vector:\n');disp(V(target,:));
- fprintf('Quality q = %.17g; basis member = %d; bucket = %d; bucket anchor = %d; other logs in bucket = %d; final rank = %d.\n', ...
-  q(target),ismember(target,basis),bucket.index,bucket.anchor,bucket.other_logs,ranks(d));
+ fprintf('Quality q = %.17g; basis member = %d; bucket = %d; bucket anchor = %d; final rank = %d.\n', ...
+  q(target),ismember(target,basis),bucket.index,bucket.anchor,ranks(d));
 end
 end

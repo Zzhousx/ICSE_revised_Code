@@ -100,7 +100,6 @@ commands. Table IV measures runtime by running the methods.
 | Section V-A coverage and statistics | `matlab -batch "addpath('scripts');section_V_A"` |
 | Section V-C basis and quality | `python scripts/section_V_C_entry.py` |
 | Section V-D window rules | `matlab -batch "addpath('scripts');section_V_D"` |
-| STRaP-OS first-round budget and statistics | `matlab -batch "addpath('scripts');recompute_own_budget"` |
 | Three-log walkthrough | `matlab -batch "addpath('scripts','walkthrough');walkthrough"` |
 
 Use `preprocess(2)` and `preprocess(3)` for the other datasets. The walkthrough
